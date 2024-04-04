@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+ body {
+    height: 100%;
+}
+body {
+    
+    overflow: hidden;
+}
+
+a {
+    color: white;
+}
+
+.rocknroll-one-regular {
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black; */
+    
+}
+
+.logo-div {
+    width: 30%;
+    background: url(./img/aurora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100%;
+    padding-top: 100px;
+    position: relative;
+   /* border: 2px solid blue; */
+   
+    
+}
+
+.form-div {
+    width: 70%;
+    height: 100%;
+    
+}
+
+.logo-wrapper {
+    height: 20%;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, .6);
+    padding-top: 3px;
+    
+   
+    width: 100%;
+   
+   
+   
+
+}
+
+.logo-wrapper p {
+    font-size: 4.2rem;
+    font-family: "RocknRoll One", sans-serif;
+    color: white;
+     
+}
+
+.contribution {
+    position: absolute;
+    top: 785px;
+    width: 100%;
+    
+}
+
+
+.contribution p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    
+}
+
