@@ -71,15 +71,22 @@
 
           <div class="password-1">
             <label for="password">*Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password...">
+            <input type="password" id="password" name="password" placeholder="Enter your password..." required pattern="[a-zA-Z0-9]{6,}">
 
           </div>
 
           <div class="password-2">
             <label for="password-confirmation">*Confirm password:</label>
-            <input type="password" id="password-confirmation" name="password" placeholder="Confirm your password...">
+            <input type="password" id="password-confirmation" name="password" placeholder="Confirm your password..." required pattern="[a-zA-Z0-9]{6,}">
 
           </div>
+
+          <div class="error">
+          <p class="error-message"></p>
+          </div>
+
+          <i class="fa-solid fa-eye first-eye"></i>
+          <i class="fa-solid fa-eye second-eye"></i>
 
           
 

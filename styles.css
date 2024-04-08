@@ -125,6 +125,8 @@ form {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    position: relative;
+    
 
 }
 
@@ -146,6 +148,19 @@ input {
    
 }
 
+.fa-solid {
+    position: absolute;
+    left: 178px;
+    top: 219px;
+    color: gray;
+    
+}
+
+.second-eye {
+  
+    left: 661px;
+}
+
 
 .form-caption {
     width: 100%;
@@ -161,6 +176,21 @@ input {
     flex-direction: column;
     width: 35%;
 }
+
+.error {
+    width: 35%;
+    position: absolute;
+    top: 261px;
+    
+}
+
+.error p {
+    font-size: 1rem;
+    position: relative;
+    bottom: 25px;
+    color: red;
+    font-weight: 500;
+ }
 
 .form-submission {
     width: 40%;
@@ -226,7 +256,9 @@ input {
 /*Validations */
 
 input[type="text"]:focus,
-input[type="email"]:focus {
+input[type="email"]:focus,
+input[type="password"]:focus
+ {
 border: 2px solid blue;
 }
 
@@ -239,4 +271,6 @@ input[type="email"]:valid {
  input[type="email"]:invalid {
     border: 2px solid red;
  }
+
+
 
