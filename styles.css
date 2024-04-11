@@ -17,10 +17,6 @@ a {
     color: white;
 }
 
-/*a:visited {
-    text-decoration: none;
-    color: black;
-} */
 
 .rocknroll-one-regular {
     font-family: "RocknRoll One", sans-serif;
@@ -33,7 +29,6 @@ a {
 .container {
     width: 100%;
     height: 100%;
-    /*border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     
@@ -45,7 +40,7 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    height: 100%;
+   
     padding-top: 100px;
     position: relative;
    /* border: 2px solid blue; */
@@ -55,7 +50,6 @@ a {
 
 .form-div {
     width: 70%;
-    height: 100%;
     background-color: #F9FAFB;
     display: flex;
     flex-direction: column;
@@ -87,8 +81,7 @@ a {
 }
 
 .contribution {
-    position: absolute;
-    top: 785px;
+  margin-top: 545px;
     width: 100%;
     
 }
@@ -148,7 +141,7 @@ input {
    
 }
 
-.fa-solid {
+.first-eye {
     position: absolute;
     left: 178px;
     top: 219px;
@@ -157,8 +150,10 @@ input {
 }
 
 .second-eye {
-  
-    left: 661px;
+    position: absolute;
+    color: gray;
+    top: 219px;
+    left: 660px;
 }
 
 
@@ -271,6 +266,189 @@ input[type="email"]:valid {
  input[type="email"]:invalid {
     border: 2px solid red;
  }
+
+ /* Responsiveness */
+
+
+
+ @media (max-width: 1286px) {
+    .second-eye {
+        left: 505px;
+    }
+
+    .footer {
+        margin-left: 150px;
+    }
+
+    .contribution {
+       
+        margin-top: 750px;
+    }
+
+    .contribution p {
+        font-size: 1.3rem;
+    }
+ }
+
+ @media (max-width: 1024px) {
+    .second-eye {
+        left: 442px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        margin-left: 128px;
+
+    
+    }
+
+    .caption {
+        padding-top: 15px;
+    }
+
+    .contribution {
+       
+        top:655px
+    }
+
+    .contribution p {
+        font-size: 1.2rem;
+    }
+ }
+
+ @media (max-width: 768px) {
+ .caption {
+    padding-top: 110px;
+ }
+
+ .caption p {
+    font-size: 1.4rem;
+ }
+
+ .second-eye {
+  left: 380px;
+ }
+
+ .account-creation {
+    width: 150px;
+ }
+
+ .form-submission {
+    width: 100%;
+  margin-left: -20px;
+ }
+
+ .form-submission p {
+    font-size: 1.3rem;
+ }
+
+ .footer {
+    margin-top: -30px;
+ }
+
+
+ .logo-wrapper p {
+    font-size: 2.5rem;
+ }
+
+ .logo-wrapper img {
+    width: 30%;
+ }
+ }
+
+
+ @media (max-width: 375px) {
+.logo-wrapper p {
+    font-size: 1.3rem;
+}
+
+.logo-wrapper img {
+width: 35%;
+}
+
+.logo-wrapper {
+    gap: 13px;
+}
+
+.contribution {
+       
+   margin-top: 400px;
+}
+
+.contribution p {
+    font-size: 0.9rem;
+}
+
+.caption {
+    padding-bottom: 20px;
+}
+
+.caption p {
+    font-size: 0.8rem;
+}
+
+input {
+    width: 70px;
+}
+
+.fa-solid {
+    display: none;
+}
+
+form {
+    gap: 25px;
+}
+
+.password-2,
+.phone {
+    position: relative;
+    bottom: 20px;
+}
+
+.account-creation {
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.form-submission {
+    width: 100%;
+    justify-content: flex-start;
+    position: relative;
+    right: 100px;
+}
+.form-submission p {
+    padding-top: 10px;
+    font-size: 0.9rem;
+   
+   
+  
+   
+ 
+}
+
+.footer {
+    font-size: 0.9rem;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.fa-github {
+    font-size: 1.9rem;
+    margin-left: 6px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+ } 
+
+
 
 
 
