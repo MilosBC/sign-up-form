@@ -282,7 +282,7 @@ input[type="email"]:valid {
 
     .contribution {
        
-        margin-top: 750px;
+        margin-top: 550px;
     }
 
     .contribution p {
@@ -308,7 +308,7 @@ input[type="email"]:valid {
 
     .contribution {
        
-        top:655px
+        margin-top: 530px;
     }
 
     .contribution p {
@@ -317,16 +317,30 @@ input[type="email"]:valid {
  }
 
  @media (max-width: 768px) {
+
+    .contribution {
+        margin-top: 510px;
+    }
  .caption {
-    padding-top: 110px;
+    padding-top: 100px;
+    
  }
 
  .caption p {
     font-size: 1.4rem;
  }
 
+ form {
+    gap: 40px;
+ }
+
+ .first-eye {
+    top: 255px;
+ }
+
  .second-eye {
   left: 380px;
+  top: 255px;
  }
 
  .account-creation {
@@ -343,7 +357,7 @@ input[type="email"]:valid {
  }
 
  .footer {
-    margin-top: -30px;
+    margin-top: -5px;
  }
 
 
