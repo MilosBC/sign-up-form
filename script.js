@@ -1,7 +1,6 @@
-// A piece of code that changes the font family of the labels
 
 let labels = document.getElementsByTagName('label');
-console.log(labels);
+
 
 for  (let i = 0; i < labels.length; i++) {
     labels[i].style.fontFamily = "Reddit Mono, monospace";
@@ -12,7 +11,7 @@ const passwordOne = document.querySelector('#password');
 const passwordTwo = document.querySelector('#password-confirmation');
 const errorMessage = document.querySelector('.error-message');
 
-passwordTwo.addEventListener('input', (e) => {
+passwordTwo.addEventListener('input', () => {
 if ((passwordOne.value.length >= 6 && passwordTwo.value.length >= 6) && passwordOne.value !== passwordTwo.value) {
     errorMessage.textContent = '* Passwords do not match!'
     passwordOne.style.border = '2px solid red';

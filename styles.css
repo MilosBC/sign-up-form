@@ -43,7 +43,7 @@ a {
    
     padding-top: 100px;
     position: relative;
-   /* border: 2px solid blue; */
+
    
     
 }
@@ -81,7 +81,7 @@ a {
 }
 
 .contribution {
-  margin-top: 545px;
+  margin-top: 575px;
     width: 100%;
     
 }
@@ -144,7 +144,7 @@ input {
 .first-eye {
     position: absolute;
     left: 178px;
-    top: 219px;
+    top: 225px;
     color: gray;
     
 }
@@ -152,7 +152,7 @@ input {
 .second-eye {
     position: absolute;
     color: gray;
-    top: 219px;
+    top: 225px;
     left: 660px;
 }
 
