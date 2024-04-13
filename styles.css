@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +74,8 @@ a {
 
 }
 
+
+
 .logo-wrapper p {
     font-size: 4.2rem;
     font-family: "RocknRoll One", sans-serif;
@@ -81,7 +84,7 @@ a {
 }
 
 .contribution {
-  margin-top: 575px;
+  margin-top: 62vh;
     width: 100%;
     
 }
@@ -153,8 +156,10 @@ input {
     position: absolute;
     color: gray;
     top: 225px;
-    left: 660px;
+   
 }
+
+
 
 
 .form-caption {
@@ -188,14 +193,13 @@ input {
  }
 
 .form-submission {
-    width: 40%;
-    padding-left: 50px;
-    margin-top: 30px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
-   margin-left: 80px;
+    width: 800px;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 10px;
 }
 
 .account-creation {
@@ -227,8 +231,9 @@ input {
     width: 400px;
     font-size: 1.3rem;
     display: flex;
-   margin-top: -10px;
-    margin-left: 238px; 
+   margin-top: -2vh;
+  position: relative;
+left: 257px;
  
    
 }
@@ -269,9 +274,10 @@ input[type="email"]:valid {
 
  /* Responsiveness */
 
+  
 
 
- @media (max-width: 1286px) {
+ /*@media (max-width: 1286px) {
     .second-eye {
         left: 505px;
     }
@@ -292,7 +298,7 @@ input[type="email"]:valid {
 
  @media (max-width: 1024px) {
     .second-eye {
-        left: 442px;
+        
     }
 
     .footer {
@@ -339,7 +345,7 @@ input[type="email"]:valid {
  }
 
  .second-eye {
-  left: 380px;
+
   top: 255px;
  }
 
@@ -461,8 +467,4 @@ form {
 
 
  } 
-
-
-
-
-
+*/
