@@ -122,6 +122,7 @@ form {
     gap: 30px;
     flex-wrap: wrap;
     position: relative;
+    padding-right: 280px;
     
 
 }
@@ -138,7 +139,7 @@ input {
     padding-top: 15px;
     padding-bottom: 30px;
     box-shadow: 2px 1px 10px rgb(46, 45, 45);
-    width: 100%;
+    width: 1350px;
     
    
    
@@ -156,6 +157,7 @@ input {
     position: absolute;
     color: gray;
     top: 225px;
+    left: 565px;
    
 }
 
@@ -180,7 +182,7 @@ input {
 .error {
     width: 35%;
     position: absolute;
-    top: 261px;
+    top: 271px;
     
 }
 
@@ -194,7 +196,7 @@ input {
 
 .form-submission {
     width: 800px;
-    margin-top: 1vh;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +233,7 @@ input {
     width: 400px;
     font-size: 1.3rem;
     display: flex;
-   margin-top: -2vh;
+   margin-top: 20px;
   position: relative;
 left: 257px;
  
