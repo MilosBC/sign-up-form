@@ -32,7 +32,7 @@ const secondEye = document.querySelector('.second-eye');
 const eyeGroup = document.querySelectorAll('.fa-eye');
 const eyes = Array.from(eyeGroup);
 
-console.log(eyes);
+
 
 function changeType(passwordInput, eye) {
 if (passwordInput.type === 'password') {

@@ -277,196 +277,33 @@ input[type="email"]:valid {
  /* Responsiveness */
 
   
-
-
- /*@media (max-width: 1286px) {
-    .second-eye {
-        left: 505px;
+@media (max-width: 786px) {
+    .logo-wrapper p {
+        font-size: 3.3rem;
     }
 
-    .footer {
-        margin-left: 150px;
-    }
-
-    .contribution {
-       
-        margin-top: 550px;
+    .logo-wrapper img {
+        width: 25%;
     }
 
     .contribution p {
         font-size: 1.3rem;
     }
- }
 
- @media (max-width: 1024px) {
+    form {
+        padding-right: 660px;
+    }
+
+    .first-eye,
     .second-eye {
-        
+        display: none;
+    }
+
+    .form-submission {
+        right: 120px;
     }
 
     .footer {
-        margin-top: 30px;
-        margin-left: 128px;
-
-    
+        left: 147px;
     }
-
-    .caption {
-        padding-top: 15px;
-    }
-
-    .contribution {
-       
-        margin-top: 530px;
-    }
-
-    .contribution p {
-        font-size: 1.2rem;
-    }
- }
-
- @media (max-width: 768px) {
-
-    .contribution {
-        margin-top: 510px;
-    }
- .caption {
-    padding-top: 100px;
-    
- }
-
- .caption p {
-    font-size: 1.4rem;
- }
-
- form {
-    gap: 40px;
- }
-
- .first-eye {
-    top: 255px;
- }
-
- .second-eye {
-
-  top: 255px;
- }
-
- .account-creation {
-    width: 150px;
- }
-
- .form-submission {
-    width: 100%;
-  margin-left: -20px;
- }
-
- .form-submission p {
-    font-size: 1.3rem;
- }
-
- .footer {
-    margin-top: -5px;
- }
-
-
- .logo-wrapper p {
-    font-size: 2.5rem;
- }
-
- .logo-wrapper img {
-    width: 30%;
- }
- }
-
-
- @media (max-width: 375px) {
-.logo-wrapper p {
-    font-size: 1.3rem;
 }
-
-.logo-wrapper img {
-width: 35%;
-}
-
-.logo-wrapper {
-    gap: 13px;
-}
-
-.contribution {
-       
-   margin-top: 400px;
-}
-
-.contribution p {
-    font-size: 0.9rem;
-}
-
-.caption {
-    padding-bottom: 20px;
-}
-
-.caption p {
-    font-size: 0.8rem;
-}
-
-input {
-    width: 70px;
-}
-
-.fa-solid {
-    display: none;
-}
-
-form {
-    gap: 25px;
-}
-
-.password-2,
-.phone {
-    position: relative;
-    bottom: 20px;
-}
-
-.account-creation {
-    width: 100px;
-    height: 30px;
-    font-size: 0.7rem;
-    margin-right: 20px;
-    margin-top: -10px;
-}
-
-.form-submission {
-    width: 100%;
-    justify-content: flex-start;
-    position: relative;
-    right: 100px;
-}
-.form-submission p {
-    padding-top: 10px;
-    font-size: 0.9rem;
-   
-   
-  
-   
- 
-}
-
-.footer {
-    font-size: 0.9rem;
-    margin-left: 38px;
-    margin-top: 20px;
-}
-
-.fa-github {
-    font-size: 1.9rem;
-    margin-left: 6px;
-    margin-top: 17px;
-}
-
-
-
-
-
-
- } 
-*/
